@@ -19,4 +19,4 @@ jobs:
         with:
           milliseconds: 1000
       - name: Print the URL of the release draft
-        run: echo ${{ steps.create-release-draft.outputs.release-url }}
+        run: echo '${{ steps.create-release-draft.outputs.release-url }}'
