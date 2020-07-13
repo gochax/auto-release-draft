@@ -7,7 +7,7 @@ jobs:
   build:
     name: Build and Test
     runs-on: ${{ matrix.os }}
-    stretegy:
+    strategy:
       matrix:
         os: [windows-latest, ubuntu-latest]
     steps:
