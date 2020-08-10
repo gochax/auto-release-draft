@@ -1,6 +1,9 @@
 name: 'Auto Release Draft'
 description: 'Drafts a GitHub rlease with the changes introduced by a newly created version tag.'
 author: 'Chris Bo'
+inputs:
+  repo-token: 'The GITHUB_TOKEN' used to authenticate to the current repository'
+  required: true
 outputs:
   release-url: 'The URL of the GitHub release that was drafted'
 runs:
